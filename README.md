@@ -8,11 +8,11 @@
 
 
 <p align="left">
+  <img width="49.5%" src="https://github-readme-stats.vercel.app/api?username=mazharulsabbir&show_icons=true&count_private=true&hide_border=true" />
+  <img width="49.5%" src="https://github-readme-streak-stats.herokuapp.com?user=mazharulsabbir&date_format=M%20j%5B%2C%20Y%5D)]" />
+</p>
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=mazharulsabbir&show_icons=true&locale=en&layout=compact&show_icons=true&count_private=true&hide_border=true" />
 
-  <img width="32.5%" src="https://github-readme-stats.vercel.app/api?username=mazharulsabbir&show_icons=true&count_private=true&hide_border=true" />
-  <img width="32.5%" src="https://github-readme-streak-stats.herokuapp.com?user=mazharulsabbir&date_format=M%20j%5B%2C%20Y%5D)]" />
-</p>
 <br>
 
 [**You like what you see? Then nominate me for GitHub Stars!**](https://stars.github.com/mazharulsabbir/)<br/>
