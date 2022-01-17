@@ -5,11 +5,24 @@
 ![Github activity graph](https://activity-graph.herokuapp.com/graph?username=mazharulsabbir&theme=react-dark&hide_border=true&color=BDDFFF&line=6E93B5&point=BDDFFF)
 
 <br/>
-<p align="left">
-  <img width="49.5%" src="https://github-readme-stats.vercel.app/api?username=mazharulsabbir&show_icons=true&count_private=true&hide_border=true" />
-    <img width="49.5%" src="https://github-readme-streak-stats.herokuapp.com?user=mazharulsabbir&date_format=M%20j%5B%2C%20Y%5D)]" />
-</p>
-<br>
 
+![Github Profile Trophy](https://github-profile-trophy.vercel.app/?username=mazharulsabbir)
+
+<br/>
+
+<p align="left">
+    <img width="28.5%" src="https://github-readme-stats.vercel.app/api/top-langs?username=mazharulsabbir&show_icons=true&locale=en&layout=compact&show_icons=true&count_private=true&hide_border=true" />
+
+  <img width="34.2%" src="https://github-readme-stats.vercel.app/api?username=mazharulsabbir&show_icons=true&count_private=true&hide_border=true" />
+  <img width="34.2%" src="https://github-readme-streak-stats.herokuapp.com?user=mazharulsabbir&date_format=M%20j%5B%2C%20Y%5D)]" />
+</p>
+
+<br>
+<h3>Where to find me</h3>
+<p><a href="https://github.com/mazharulsabbir" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> </a> <a href="https://www.linkedin.com/in/mazharulsabbir" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="https://medium.com/@mazharulsabbir
+" target="_blank"><img alt="Medium" src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" /></a>
+</p>
+
+<br/>
 [**You like what you see? Then nominate me for GitHub Stars!**](https://stars.github.com/mazharulsabbir/)<br/>
 
