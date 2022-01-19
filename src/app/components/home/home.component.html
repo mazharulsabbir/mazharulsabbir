@@ -1,0 +1,101 @@
+<div class="container">
+  <div class="d-flex justify-content-between about-me">
+    <!-- selector -->
+    <div class="intro">
+      <!-- short bio -->
+      <h5 class="lead">Hello, I'm</h5>
+      <h3 class="display-5">{{title}}</h3>
+      <p>Android | Web Developer & UI | UX Designer</p>
+
+      <!-- social activities -->
+      <div class="d-flex justify-content-start">
+        <a class="btn btn-light  btn-sm" href="#">
+          <svg-icon src="assets/social/twitter-outline.svg" [svgStyle]="{ 'width.px':20 }"></svg-icon>
+        </a>
+
+        <a class="btn btn-light  btn-sm" href="#">
+          <svg-icon src="assets/social/facebook-outline.svg" [svgStyle]="{ 'width.px':20 }"></svg-icon>
+        </a>
+
+        <a class="btn btn-light  btn-sm" href="#">
+          <svg-icon src="assets/social/github-outline.svg" [svgStyle]="{ 'width.px':20 }"></svg-icon>
+        </a>
+
+        <a class="btn btn-light  btn-sm" href="#">
+          <svg-icon src="assets/social/linkedin-outline.svg" [svgStyle]="{ 'width.px':20 }"></svg-icon>
+        </a>
+      </div>
+
+      <div class="hireme-btn">
+        <a class="btn btn-primary rounded-pill btn-sm" routerLink="/hire" href="#" role="button">HIRE ME</a>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <img src="assets/person/avatar1.jpg" class="rounded-lg card-img-top" alt="rannaghor">
+    </div>
+  </div>
+
+  <!-- divider -->
+  <hr class="my-4">
+
+  <!-- projects -->
+  <div class="text-start">
+    <div class="card-header">
+      <ul class="nav nav-tabs card-header-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">RECENT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ALL</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ANDROID</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">WEB</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- project item holder -->
+    <div class="row">
+      <div class="col-sm-4" *ngFor="let project of projects" style="min-width: 18rem;">
+        <div class=" shadow-sm p-3 mb-5 bg-white rounded">
+          <a routerLink="">
+            <div class="card-body">
+              <img src="{{project.img}}" class="card-img-top" alt="{{project.name}}" height="150px">
+
+              <!-- divider -->
+              <hr class="item-divider">
+
+              <div class="card-body">
+                <h5 class="card-title">{{project.name}}</h5>
+                <p class="card-text">{{project.desc}}</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- load more projects -->
+    <button class="btn btn-outline-primary rounded-pill my-2 btn-sm" type="submit">LOAD MORE WORK</button>
+
+  </div>
+
+  <!-- about me -->
+  <div class="row">
+    <div class="col-sm-4" style="margin-top: 2em;">
+      <img src="assets/person/avatar2.jpg" class="card-img-top" alt="rannaghor">
+    </div>
+
+    <div class="col" style="margin-top: 2em; margin-bottom: 2em;">
+      <h5>{{about_me}}</h5>
+      <h1>{{who_am_i}}</h1>
+      <p>{{about_body}}</p>
+      <button class="btn btn-outline-primary rounded-pill my-2 btn-sm" type="submit">HIRE ME</button>
+    </div>
+  </div>
+
+</div>
