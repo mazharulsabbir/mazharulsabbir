@@ -7,9 +7,7 @@ import {Component, OnInit} from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   title = 'Mazharul Sabbir';
-  bio: string = "I am a highly organized and detail-oriented engineering student from the Daffodil\n" +
-    "International University, Dhaka interested in the Mobile Apps Development field where I can\n" +
-    "build applications for people's needs. Highly motivated Mobile Application Developer with\n" +
+  bio: string = "Highly motivated Mobile Application Developer with\n" +
     "over 3 plus years of experience in Android and Flutter. Extensive knowledge and hands-on\n" +
     "experience working on Smartphone Applications.";
 

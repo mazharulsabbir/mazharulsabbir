@@ -30,29 +30,62 @@
 
   <!-- divider -->
   <hr class="my-4">
+  <div class="specialization mt-4 text-center">
+    <div class="title">Specializing</div>
+    <div class="h3">What I Do</div>
+    <div class="d-flex align-items-center justify-content-around">
+      <div class="container">
+        <div><img src="assets/person/avatar1.jpg" class="rounded-lg card-img-top" alt="rannaghor" height="200px"
+                  width="200px"></div>
+        <div class="h3">UI Design</div>
+        <div class="body">
+          Design all the screen through which a user will move, and to create the visual elements, and their interactive
+          properties that facilitate this movement.
+        </div>
+      </div>
+      <div class="container">
+        <div><img src="assets/person/avatar1.jpg" class="rounded-lg card-img-top" alt="rannaghor" height="200px"
+                  width="200px"></div>
+        <div class="h3">Content Writing</div>
+        <div class="body">
+          Product interesting content in online media in the form f articles, blogs, posts on social media or anything
+          based online.
+        </div>
+      </div>
+      <div class="container">
+        <div><img src="assets/person/avatar1.jpg" class="rounded-lg card-img-top" alt="rannaghor" height="200px"
+                  width="200px"></div>
+        <div class="h3">UX Design</div>
+        <div class="body">
+          Create products that provide meaningful and relevant experiences to users.
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- projects -->
-  <div class="text-start">
+  <div class="text-start mt-5">
+    <div class="text-center">
+      <div class="title">Projects</div>
+      <div class="h3">What I have Completed</div>
+    </div>
     <!-- project item holder -->
-    <div class="row">
-      <div class="projects" *ngFor="let project of projects" style="min-width: 18rem;">
-        <div class="card shadow-sm p-3 mb-5 bg-white rounded">
-          <div class="card-body">
-            <div class="row">
-              <div class="col-sm project-info">
-                <div class="h3 card-title">{{project.name}}</div>
-                <div class="h5 card-text">{{project.type}}</div>
-                <div class="card-text">{{project.desc}}</div>
-              </div>
-              <div class="col-sm image">
-                <img src="{{project.img}}" class="card-img-top" alt="{{project.name}}">
-              </div>
+    <div class="projects" *ngFor="let project of projects" style="min-width: 18rem;">
+      <div class="card shadow-sm p-3 mb-5 bg-white rounded">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm project-info">
+              <div class="h3 card-title">{{project.name}}</div>
+              <div class="h5 card-text">{{project.type}}</div>
+              <div class="card-text">{{project.desc}}</div>
+            </div>
+            <div class="col-sm image">
+              <img src="{{project.img}}" class="card-img-top" alt="{{project.name}}">
             </div>
           </div>
         </div>
       </div>
     </div>
-
     <!-- load more projects -->
     <button class="btn btn-outline-primary rounded-pill my-2 btn-sm" type="submit">LOAD MORE WORK</button>
 
