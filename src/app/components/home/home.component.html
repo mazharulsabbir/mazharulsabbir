@@ -3,29 +3,21 @@
     <!-- selector -->
     <div class="intro">
       <!-- short bio -->
-      <h5 class="lead">Hello, I'm</h5>
-      <h3 class="display-5">{{title}}</h3>
+      <div class="lead mt-5">Hello, I'm</div>
+      <div class="h2">{{title}}</div>
       <p>Android | Web Developer & UI | UX Designer</p>
 
       <!-- social activities -->
       <div class="d-flex justify-content-start">
-        <a class="btn btn-light  btn-sm" href="#">
-          <svg-icon src="assets/social/twitter-outline.svg" [svgStyle]="{ 'width.px':20 }"></svg-icon>
-        </a>
-
-        <a class="btn btn-light  btn-sm" href="#">
-          <svg-icon src="assets/social/facebook-outline.svg" [svgStyle]="{ 'width.px':20 }"></svg-icon>
-        </a>
-
-        <a class="btn btn-light  btn-sm" href="#">
-          <svg-icon src="assets/social/github-outline.svg" [svgStyle]="{ 'width.px':20 }"></svg-icon>
-        </a>
-
-        <a class="btn btn-light  btn-sm" href="#">
-          <svg-icon src="assets/social/linkedin-outline.svg" [svgStyle]="{ 'width.px':20 }"></svg-icon>
-        </a>
+        <div *ngFor="let social of social_media">
+          <a class="btn btn-light  btn-sm" href="{{social.site_url}}">
+            <svg-icon src="{{social.image_url}}" [svgStyle]="{ 'width.px':20 }"></svg-icon>
+          </a>
+        </div>
       </div>
-
+      <div class="bio mt-5 mb-5">
+        {{bio}}
+      </div>
       <div class="hireme-btn">
         <a class="btn btn-primary rounded-pill btn-sm" routerLink="/hire" href="#" role="button">HIRE ME</a>
       </div>
@@ -41,40 +33,22 @@
 
   <!-- projects -->
   <div class="text-start">
-    <div class="card-header">
-      <ul class="nav nav-tabs card-header-tabs">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">RECENT</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">ALL</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">ANDROID</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">WEB</a>
-        </li>
-      </ul>
-    </div>
-
     <!-- project item holder -->
     <div class="row">
-      <div class="col-sm-4" *ngFor="let project of projects" style="min-width: 18rem;">
-        <div class=" shadow-sm p-3 mb-5 bg-white rounded">
-          <a routerLink="">
-            <div class="card-body">
-              <img src="{{project.img}}" class="card-img-top" alt="{{project.name}}" height="150px">
-
-              <!-- divider -->
-              <hr class="item-divider">
-
-              <div class="card-body">
-                <h5 class="card-title">{{project.name}}</h5>
-                <p class="card-text">{{project.desc}}</p>
+      <div class="projects" *ngFor="let project of projects" style="min-width: 18rem;">
+        <div class="card shadow-sm p-3 mb-5 bg-white rounded">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm project-info">
+                <div class="h3 card-title">{{project.name}}</div>
+                <div class="h5 card-text">{{project.type}}</div>
+                <div class="card-text">{{project.desc}}</div>
+              </div>
+              <div class="col-sm image">
+                <img src="{{project.img}}" class="card-img-top" alt="{{project.name}}">
               </div>
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </div>
