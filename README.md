@@ -1,7 +1,11 @@
 <!-- <a href="https://AK1.io" rel="akshay2211">![](https://raw.githubusercontent.com/akshay2211/akshay2211.github.io/master/img/banner_dark.png)</a> -->
 <h3>Hi! 👋🤓<br>I'm Mazharul Sabbir<br>a Mobile Application Developer, Designer & Creator</h3>
 <h6>I build <a href="https://mazharulsabbir.com/portfolio">websites</a>, create <a href="https://mazharulsabbir.com/blog">content</a>, design <a href="https://mazharulsabbir.com/portfolio">graphics</a>, <a href="https://mazharulsabbir.com/book-a-consultation">strategize</a> and sell <a href="https://mazharulsabbir.com/store">digital products</a>.</h6>
+<br/>
 
+![Github Profile View Count](https://gpvc.arturio.dev/mazharulsabbir)
+
+<br/>
 ![Github activity graph](https://activity-graph.herokuapp.com/graph?username=mazharulsabbir&theme=react-dark&hide_border=true&color=BDDFFF&line=6E93B5&point=BDDFFF)
 
 <br/>
