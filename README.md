@@ -5,10 +5,7 @@
 
 ![Github Profile View Count](https://gpvc.arturio.dev/mazharulsabbir)
 
-<br/>
 ![Github activity graph](https://activity-graph.herokuapp.com/graph?username=mazharulsabbir&theme=react-dark&hide_border=true&color=BDDFFF&line=6E93B5&point=BDDFFF)
-
-<br/>
 
 ![Github Profile Trophy](https://github-profile-trophy.vercel.app/?username=mazharulsabbir)
 
