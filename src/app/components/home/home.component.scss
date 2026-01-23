@@ -1,37 +1,317 @@
-span{
-  font-weight: bold;
-  background: lightgray;
-  padding: .3em .8em;
-  cursor: pointer;
-  user-select: none;
+// Professional Corporate Theme
+
+// Hero Section
+.hero-section {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+
+  .hero-content {
+    h1 {
+      color: #2c3e50;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    h3 {
+      color: #3498db;
+      font-weight: 600;
+    }
+
+    .lead {
+      color: #5a6c7d;
+      line-height: 1.8;
+    }
+  }
+
+  .social-links {
+    a {
+      transition: all 0.3s ease;
+      border: 2px solid #dee2e6;
+
+      &:hover {
+        border-color: #3498db;
+        background-color: #3498db;
+        color: white;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(52, 152, 219, 0.3);
+      }
+    }
+  }
+
+  .cta-buttons {
+    .btn {
+      padding: 12px 32px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+
+      &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+
+  img {
+    max-width: 100%;
+    border: 5px solid white;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
 }
 
-.card-body{
-  cursor: pointer;
-  padding-top: 0;
-  padding-bottom: 0;
+// Experience Section
+.experience-section {
+  .card {
+    transition: all 0.3s ease;
+    border-left: 4px solid #3498db;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    }
+
+    h4 {
+      color: #2c3e50;
+    }
+
+    h5 {
+      color: #3498db;
+    }
+
+    .badge {
+      font-size: 0.75rem;
+      padding: 0.5rem 1rem;
+      font-weight: 600;
+    }
+  }
 }
 
-.card-header{
-  margin-bottom: 20px;
+// Expertise Section
+.expertise-section {
+  background: white;
+
+  .expertise-card {
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 24px rgba(52, 152, 219, 0.2);
+      border-left: 4px solid #3498db;
+    }
+
+    .expertise-icon {
+      i {
+        transition: all 0.3s ease;
+      }
+    }
+
+    &:hover .expertise-icon i {
+      transform: scale(1.1);
+      color: #2980b9 !important;
+    }
+
+    h5 {
+      color: #2c3e50;
+    }
+  }
 }
 
-h1{
-  color: darken($color: #CCCCCC, $amount: 2);
+// Skills Section
+.skills-section {
+  .skill-item {
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transform: translateX(5px);
+    }
+
+    .progress {
+      background-color: #e9ecef;
+      border-radius: 10px;
+
+      .progress-bar {
+        background: linear-gradient(90deg, #3498db 0%, #2980b9 100%);
+        border-radius: 10px;
+        transition: width 0.6s ease;
+      }
+    }
+  }
 }
 
-.hireme-btn{
-  margin-top: 20px;
+// Projects Section
+.projects-section {
+  background: white;
+
+  .project-card {
+    transition: all 0.3s ease;
+    border-left: 4px solid transparent;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+      border-left-color: #3498db;
+    }
+
+    h4 {
+      color: #2c3e50;
+    }
+
+    .technologies {
+      .badge {
+        font-size: 0.85rem;
+        padding: 0.5rem 1rem;
+        border: 1px solid #dee2e6;
+        font-weight: 500;
+        transition: all 0.2s ease;
+
+        &:hover {
+          background-color: #3498db !important;
+          color: white !important;
+          border-color: #3498db;
+        }
+      }
+    }
+
+    .project-placeholder {
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
 }
 
-.profile-desc{
-  margin-top: 30px;
+// About Section
+.about-section {
+  h2 {
+    color: #2c3e50;
+  }
+
+  .lead {
+    color: #5a6c7d;
+    line-height: 1.8;
+  }
+
+  img {
+    border: 5px solid white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
 }
 
-a{
-  margin-right: 8px;
+// Contact Section
+.contact-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+
+  h2, h5 {
+    color: white;
+  }
+
+  .card {
+    background: white;
+
+    h4 {
+      color: #2c3e50;
+    }
+
+    .contact-info {
+      a {
+        color: #3498db;
+        font-weight: 600;
+        transition: all 0.2s ease;
+
+        &:hover {
+          color: #2980b9;
+          text-decoration: underline !important;
+        }
+      }
+
+      i {
+        font-size: 1.2rem;
+      }
+    }
+
+    .social-links-footer {
+      a {
+        transition: all 0.3s ease;
+
+        &:hover {
+          background-color: #3498db;
+          color: white;
+          border-color: #3498db;
+          transform: translateY(-2px);
+        }
+      }
+    }
+  }
 }
 
-h3,h5{
-  margin: 0;
+// Section Titles
+section {
+  h5.text-uppercase {
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 0.875rem;
+  }
+
+  h2.fw-bold {
+    font-size: 2.5rem;
+    color: #2c3e50;
+
+    @media (max-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+}
+
+// Smooth Scrolling
+html {
+  scroll-behavior: smooth;
+}
+
+// General Improvements
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.btn {
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.shadow-sm {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+}
+
+.shadow-lg {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important;
+}
+
+// Responsive adjustments
+@media (max-width: 992px) {
+  .hero-section {
+    min-height: auto;
+    padding: 3rem 0;
+  }
+
+  .expertise-card {
+    margin-bottom: 1rem;
+  }
 }
