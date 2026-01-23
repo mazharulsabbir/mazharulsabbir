@@ -1,9 +1,9 @@
 <h1 align="center">
   Hi there <a href="#"><img src="https://raw.githubusercontent.com/JeshadKhan/jeshadkhan/main/.github/images/hand_wave.gif" width="45px" height="45px"/></a>, I'm Md Mazharul Islam
-  <img align="center" src="https://readme-typing-svg.herokuapp.com?font=Satisfy&color=%2338C2FF&size=35&center=true&vCenter=true&height=60&width=600&lines=Odoo+ERP+Developer;Full+Stack+Developer;Mobile+Apps+Developer;Flutter+Developer;Backend+Engineer;FastAPI+%26+Golang+Expert;CI/CD+Specialist;Problem+Solver"></img>
+  <img align="center" src="https://readme-typing-svg.herokuapp.com?font=Satisfy&color=%2338C2FF&size=35&center=true&vCenter=true&height=60&width=600&lines=SaaS+Architect;Odoo+ERP+Developer;Full+Stack+Developer;Mobile+Apps+Developer;Flutter+Developer;Backend+Engineer;Golang+Microservices+Expert;CI/CD+Specialist;Problem+Solver"></img>
 </h1>
 
-<h3 align="center">Senior Software Engineer | Odoo ERP Specialist | Mobile & Backend Development Expert<br/>From Bangladesh 🇧🇩</h3>
+<h3 align="center">Senior Software Engineer | SaaS Architect | Odoo ERP Specialist | Mobile & Backend Development Expert<br/>From Bangladesh 🇧🇩</h3>
 
 [![website](https://img.shields.io/website?label=mazharulsabbir.com&style=for-the-badge&url=https://mazharulsabbir.com)](https://mazharulsabbir.com)
 [![Twitter Follow](https://img.shields.io/twitter/follow/mazharulsabbir?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2Fmazharulsabbir&screen_name=mazharulsabbir)
@@ -14,24 +14,33 @@
 
 ## 👨‍💻 About Me
 
-- 🏢 Currently working at **Genweb2 Limited** as **Software Engineer** (2022 - Present)
-- 🎯 Specializing in **Odoo ERP Development**, **Mobile Applications**, and **Backend Engineering**
-- 🔧 Expert in **FastAPI**, **Golang**, **Flutter**, and **CI/CD** pipelines
+- 🏢 Currently working at **Genweb2 Limited** as **Senior Software Engineer** (2022 - Present)
+- 🎯 Specializing in **SaaS Architecture**, **Odoo ERP Development**, **Mobile Applications**, and **Backend Engineering**
+- 🔧 Expert in **SaaS solutions using Odoo + Golang Microservices**, **FastAPI**, **Flutter**, and **CI/CD** pipelines
 - 💼 Previously at **Daffodil Computers Limited** (2021 - 2022) - Mobile Apps Development, App Release Management, Odoo API Development, OWL JS
 - 🧩 Passionate about **Problem Solving**, **Code Review**, and **System Architecture**
 - 🌱 Continuously learning and exploring new technologies
 - 🎯 Goals: Contribute to impactful projects and mentor fellow developers
 - ⚡ Fun fact: I love reading 📚, enjoying music 🎧 and traveling ✈️
 
+## 📞 Contact Me
+
+- 📱 Mobile/WhatsApp: [+8801611594448](tel:+8801611594448)
+- 📧 Email: [mazharulsabbir2@gmail.com](mailto:mazharulsabbir2@gmail.com)
+- 💼 Fiverr: [imazharulsabbir](https://www.fiverr.com/users/imazharulsabbir)
+- 🌐 Website: [mazharulsabbir.com](https://mazharulsabbir.com)
+
 ---
 
 ## 🛠️ Technical Expertise
 
 ### Core Technologies
+![SaaS](https://img.shields.io/badge/SaaS-Architecture-FF6B6B?style=for-the-badge&logo=cloud&logoColor=white)
 ![Odoo](https://img.shields.io/badge/Odoo-ERP-714B67?style=for-the-badge&logo=odoo&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Golang](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Microservices](https://img.shields.io/badge/Microservices-2CA5E0?style=for-the-badge&logo=micro&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
@@ -56,6 +65,7 @@
 
 ### DevOps & Tools
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/CI/CD-239120?style=for-the-badge&logo=gitlab&logoColor=white)
@@ -65,10 +75,11 @@
 
 ## 💼 Professional Focus Areas
 
+- ☁️ **SaaS Architecture** - Building scalable SaaS solutions using Odoo + Golang microservices, multi-tenancy, cloud-native architecture
 - 🏗️ **Odoo ERP Development** - Custom modules, API integration, business process automation
 - 📱 **Mobile Application Development** - Flutter, Android (Kotlin/Java), iOS
-- ⚡ **Backend Engineering** - FastAPI, Golang, Node.js, RESTful APIs
-- 🔄 **CI/CD & DevOps** - Automated deployment pipelines, containerization
+- ⚡ **Backend Engineering** - FastAPI, Golang microservices, Node.js, RESTful APIs
+- 🔄 **CI/CD & DevOps** - Automated deployment pipelines, containerization, Kubernetes
 - 📊 **Dashboard Development** - OWL JS, data visualization, analytics
 - 🔍 **Code Review & Analysis** - Best practices, performance optimization
 - 🚀 **App Release Management** - Play Store, App Store deployment strategies

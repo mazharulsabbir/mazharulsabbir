@@ -7,18 +7,26 @@ import {Component, OnInit} from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   title = 'Md Mazharul Islam';
-  subtitle = 'Software Engineer | Odoo ERP Specialist';
-  bio: string = "Senior Software Engineer with 5+ years of experience specializing in Odoo ERP development, mobile applications, and backend engineering. Expert in building scalable enterprise solutions, mobile apps, and high-performance APIs.";
+  subtitle = 'Software Engineer | Odoo ERP Specialist | SaaS Architect';
+  bio: string = "Senior Software Engineer with 5+ years of experience specializing in Odoo ERP development, SaaS solutions, mobile applications, and backend engineering. Expert in building scalable enterprise solutions with Odoo + Golang microservices architecture, mobile apps, and high-performance APIs.";
 
   about_me = "ABOUT ME"
   who_am_i = "WHO AM I"
-  about_body = "Senior Software Engineer currently working at Genweb2 Limited, specializing in Odoo ERP development, custom module creation, and business process automation. Previously worked at Daffodil Computers Limited, where I led mobile app development initiatives, managed app releases, and developed Odoo-based dashboards using OWL JS. My expertise spans across Odoo ERP, Flutter, FastAPI, Golang, mobile development (Android/iOS), CI/CD pipelines, and comprehensive code review and analysis. I'm passionate about solving complex problems, building efficient systems, and mentoring fellow developers."
+  about_body = "Senior Software Engineer currently working at Genweb2 Limited, specializing in Odoo ERP development, SaaS architecture, custom module creation, and business process automation. Expert in building scalable SaaS solutions using Odoo integrated with Golang microservices. Previously worked at Daffodil Computers Limited, where I led mobile app development initiatives, managed app releases, and developed Odoo-based dashboards using OWL JS. My expertise spans across Odoo ERP, SaaS architecture, Flutter, FastAPI, Golang microservices, mobile development (Android/iOS), CI/CD pipelines, and comprehensive code review and analysis. I'm passionate about solving complex problems, building efficient systems, and mentoring fellow developers."
 
   currentCompany = {
     name: "Genweb2 Limited",
-    role: "Software Engineer",
+    role: "Senior Software Engineer",
     duration: "2022 - Present",
-    description: "Leading Odoo ERP development projects, custom module creation, API integrations, and business process automation"
+    description: "Leading Odoo ERP development projects, SaaS solutions with Odoo + Golang microservices, custom module creation, API integrations, and business process automation"
+  }
+
+  contactInfo = {
+    mobile: "+8801611594448",
+    whatsapp: "+8801611594448",
+    email: "mazharulsabbir2@gmail.com",
+    fiverr: "https://www.fiverr.com/users/imazharulsabbir",
+    website: "https://mazharulsabbir.com"
   }
 
   previousCompany = {
@@ -29,19 +37,26 @@ export class HomeComponent implements OnInit {
   }
 
   skills = [
-    { name: "Odoo ERP", level: 95, category: "ERP" },
+    { name: "Odoo ERP", level: 95, category: "ERP/SaaS" },
+    { name: "SaaS Architecture", level: 90, category: "Architecture" },
     { name: "Python", level: 90, category: "Backend" },
+    { name: "Golang Microservices", level: 85, category: "Backend" },
     { name: "Flutter", level: 85, category: "Mobile" },
     { name: "FastAPI", level: 88, category: "Backend" },
-    { name: "Golang", level: 82, category: "Backend" },
     { name: "Android", level: 85, category: "Mobile" },
     { name: "CI/CD", level: 80, category: "DevOps" },
-    { name: "Angular", level: 75, category: "Frontend" },
     { name: "PostgreSQL", level: 85, category: "Database" },
-    { name: "Docker", level: 78, category: "DevOps" }
+    { name: "Docker", level: 78, category: "DevOps" },
+    { name: "Angular", level: 75, category: "Frontend" },
+    { name: "Microservices", level: 83, category: "Architecture" }
   ]
 
   expertiseAreas = [
+    {
+      title: "SaaS Architecture",
+      icon: "assets/icons/saas.svg",
+      description: "Building scalable SaaS solutions using Odoo ERP integrated with Golang microservices, multi-tenancy, API gateways, and cloud-native architecture"
+    },
     {
       title: "Odoo ERP Development",
       icon: "assets/icons/odoo.svg",
@@ -66,6 +81,21 @@ export class HomeComponent implements OnInit {
 
   social_media = [
     {
+      name: "LinkedIn",
+      site_url: "https://www.linkedin.com/in/mazharulsabbir",
+      image_url: "assets/social/linkedin-outline.svg"
+    },
+    {
+      name: "Github",
+      site_url: "https://github.com/mazharulsabbir",
+      image_url: "assets/social/github-outline.svg"
+    },
+    {
+      name: "Fiverr",
+      site_url: "https://www.fiverr.com/users/imazharulsabbir",
+      image_url: "assets/social/fiverr-outline.svg"
+    },
+    {
       name: "Twitter",
       site_url: "https://twitter.com/mazharulsabbir",
       image_url: "assets/social/twitter-outline.svg"
@@ -74,18 +104,17 @@ export class HomeComponent implements OnInit {
       name: "Facebook",
       site_url: "https://facebook.com/mazharulsabbir",
       image_url: "assets/social/facebook-outline.svg"
-    }, {
-      name: "Github",
-      site_url: "https://github.com/mazharulsabbir",
-      image_url: "assets/social/github-outline.svg"
-    }, {
-      name: "LinkedIn",
-      site_url: "https://www.linkedin.com/in/mazharulsabbir",
-      image_url: "assets/social/linkedin-outline.svg"
     }
   ]
 
   projects = [
+    {
+      name: "SaaS Platform with Odoo + Golang",
+      type: "SaaS | Microservices Architecture",
+      desc: "Built scalable multi-tenant SaaS platform using Odoo ERP integrated with Golang microservices for high-performance operations",
+      technologies: ["Odoo", "Golang", "Microservices", "PostgreSQL", "Docker", "Kubernetes"],
+      img: "assets/project/saas-platform.png"
+    },
     {
       name: "Odoo ERP Custom Modules",
       type: "Enterprise | ERP Development",
@@ -106,13 +135,6 @@ export class HomeComponent implements OnInit {
       desc: "High-performance RESTful API service with authentication, rate limiting, and comprehensive documentation",
       technologies: ["FastAPI", "Python", "PostgreSQL", "Docker"],
       img: "assets/project/fastapi.png"
-    },
-    {
-      name: "CI/CD Pipeline Implementation",
-      type: "DevOps | Automation",
-      desc: "Automated deployment pipeline with testing, building, and deployment stages for multiple environments",
-      technologies: ["GitHub Actions", "Docker", "AWS", "Bash"],
-      img: "assets/project/cicd.png"
     }
   ];
 
